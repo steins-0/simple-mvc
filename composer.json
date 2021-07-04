@@ -1,0 +1,15 @@
+{
+    "name": "user/simple-mvc",
+    "authors": [
+        {
+            "name": "steins-0",
+            "email": "softsky1999@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {}
+}
