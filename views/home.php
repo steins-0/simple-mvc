@@ -1,1 +1,4 @@
-<h1><?php echo $name ?></h1>
+<?php
+foreach ($users as $user) { ?>
+    <h2><?= $user['name'] ?></h2>
+<?php } ?>

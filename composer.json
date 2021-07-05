@@ -11,5 +11,9 @@
             "app\\": "./"
         }
     },
-    "require": {}
+    "require": {
+      "ext-pdo": "*",
+      "ext-mysqli": "*",
+      "ext-json": "*"
+    }
 }

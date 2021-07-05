@@ -53,4 +53,15 @@ class Request
 
         return $body;
     }
+
+    public function dd(...$data)
+    {
+        foreach ($data as $value) {
+            if (is_array($value) || is_object($value)) {
+                echo '<pre>'; print_r($value); die;
+            } else {
+                echo $value;
+            }
+        }
+    }
 }

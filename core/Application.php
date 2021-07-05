@@ -14,6 +14,7 @@ class Application
     {
         $this->request = new Request();
         $this->router = new Router($this->request);
+
         self::$ROOT_PATH = $rootPath;
         self::$app = $this;
     }
